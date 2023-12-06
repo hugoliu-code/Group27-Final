@@ -1,0 +1,32 @@
+import pandas as pd
+import earthquakes
+import matplotlib.pyplot as plt
+
+'''
+Null hypothesis: The significance of an earthquake has no significant difference nor a correlation to the magnitude of earthquakes.
+Alternative hypothesis: The significance of an earthquake has a correlation and a significance difference to the magnitude of earthquakes.
+'''
+
+# data frame = 2D labeled data structure with columns (like a spreadsheet or SQL table)
+# pd = shortened for methods imported under pandas
+
+# earthquake_data = earthquakes.get_earthquake()
+# data_frame = pd.DataFrame(data_list, columns=["Magnitude", "Depth"])
+
+
+# reading pkl file data and storing info into a dataframe
+earthquake_df = pd.read_pickle("earthquake_data.pkl")
+
+# selecting information from earthquakes dataset we are looking for
+target_df = earthquake_df[["significance", "magnitude"]]
+
+# creating scatter plot information
+plt.scatter(target_df["magnitude"], target_df["significance"])
+plt.title("Magnitude and Significance")
+plt.xlabel("Magnitude (Richter Scale)")
+plt.ylabel("Significance")
+# create something later that defines that signifgance is (*)
+
+
+# displaying the scatter plot
+plt.show()
