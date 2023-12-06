@@ -61,5 +61,6 @@ plt.show()
 '''
 The data shows that there is a strong positive correlation between the magnitude of an earthquake and its corresponding significance. 
 The null hypothesis is thus accepted and the alternative hypothesis is rejected. 
-From the dataset though, it is curious to see which areas of the world from 2000-2016 have the highest percentage of most impactful earthquakes (greater than 5.5 on Richter Scale). 
+From the dataset though, it is curious to see which areas of the world from 2000-2016 have the highest percentage of most impactful earthquakes (greater than 5.5 on Richter Scale)
+& if those earthquakes are located near tectonic plates.
 '''
