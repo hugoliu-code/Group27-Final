@@ -51,5 +51,5 @@ There are some outliers of earthquakes around 4-5 magnitude which may be because
 This is surprising because originally I believed there would be a strong postive correlation between depth and strength.
 I believed this because deep earthquakes would have more energy from the earth's core. 
 
-Because the p-value is less than 0.01 we reject the hypothesis that r is greater than or equal to 0.75.
+Because the p-value is less than 0.01 we reject the null hypothesis that r is greater than or equal to 0.75.
 """
