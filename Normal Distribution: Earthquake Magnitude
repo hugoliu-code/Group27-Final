@@ -34,8 +34,7 @@ else:
     print("Fail to reject the null hypothesis: Magnitudes may follow a normal distribution.")
 
 # Q-Q Plot using statsmodels
-qqplot = sm.ProbPlot(magnitude_values, fit=True)
-qqplot.qqplot(line='45', alpha=0.5, markerfacecolor='none', markeredgecolor='blue', lw=1)
+stats.probplot(magnitude_values, plot=plt)
 
 # Add title
 plt.title('Q-Q Plot for Magnitude Data')
