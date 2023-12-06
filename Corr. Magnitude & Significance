@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 '''
-Null hypothesis: The significance of an earthquake has no significant difference nor a correlation to the magnitude of earthquakes.
-Alternative hypothesis: The significance of an earthquake has a correlation and a significance difference to the magnitude of earthquakes.
+Null hypothesis: The significance of an earthquake has a significant difference nor a correlation to the magnitude of earthquakes.
+Alternative hypothesis: The significance of an earthquake does not have a correlation and a significance difference to the magnitude of earthquakes.
 Goal: Discover relationship between magnitude of an earthquake and its significance
 '''
 
