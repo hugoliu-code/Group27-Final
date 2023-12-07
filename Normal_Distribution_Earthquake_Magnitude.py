@@ -2,7 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import scipy.stats as stats
-import statsmodels.api as sm
 
 loaded_df = pd.read_pickle('earthquake_data.pkl')
 
